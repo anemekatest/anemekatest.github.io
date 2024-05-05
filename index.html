@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/static/style.css">
     <title>Textore</title>
 </head>
 <body>
@@ -17,20 +17,11 @@
             <div class="square" style="--i:4;"></div>-->
             <div class="container">
                 <div class="form">
-                    <h2>Textore Login</h2>
+                    <h2>SD Bots Login</h2>
                     <form action="{{ url_for('validate') }}" method="POST">
                         <div class="inputBox">
-                            <input type="text" id="username" id="username" placeholder="username">
-                        </div>
-                        <div class="inputBox">
-                            <input type="password" id="password" placeholder="password">
-                        </div>  
-                        <div class="inputBox">
-                            <input type="submit" value="Login">
-                            <div class="tg"><script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-login="DamanthaUserbot" data-size="large" data-onauth="onTelegramAuth(user)" data-request-access="write"></script></div>
-                        </div>    
-                        <p class="forget">Forget Password ?<a href="#">Click Here</a></p>                                            
-                        <p class="forget">Don't have an account ?<a href="#">Sign Up</a></p>                                            
+                           <script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-login="DamanthaUserbot" data-size="large" data-onauth="onTelegramAuth(user)" data-request-access="write"></script>
+                        </div>                                        
                     </form>
                 </div>
             </div>
