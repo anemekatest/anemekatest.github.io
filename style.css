@@ -180,7 +180,7 @@ section .color:nth-child(3) {
 }
 .tg {
     margin-top: -20%;
-    margin-right: 55%;
+    margin-left: 35%;
 }
 
 .form .inputBox input::placeholder {
